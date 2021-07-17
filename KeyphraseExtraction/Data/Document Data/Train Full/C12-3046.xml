@@ -1,0 +1,47 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>A Demo for Constructing Domain Ontology from Academic Papers  </Title>
+    <FileName>C12-3046.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="3" EndRow="4" Weight="0.9" />
+    <section Name="Abstract" BeginRow="11" EndRow="23" Weight="0.7" />
+    <section Name="Keywords" BeginRow="24" EndRow="25" Weight="1" />
+    <section Name="Introduction" BeginRow="41" EndRow="68" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="303" EndRow="316" Weight="0.7" />
+    <section Name="References" BeginRow="321" EndRow="371" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>domain ontology</keyphrase>
+    <keyphrase>domain ontologies</keyphrase>
+    <keyphrase>graph generation</keyphrase>
+    <keyphrase>graph conversion</keyphrase>
+    <keyphrase>ontology concept</keyphrase>
+    <keyphrase>hierarchical relation</keyphrase>
+    <keyphrase>construction methods of domain ontology</keyphrase>
+    <keyphrase>academic papers in information technology</keyphrase>
+  </Keyphrases>
+</document>

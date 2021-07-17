@@ -1,0 +1,57 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Magpie: Experiences in supporting Semantic Web browsing </Title>
+    <FileName>123-139-3-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="6" EndRow="15" Weight="0.7" />
+    <section Name="Keywords" BeginRow="16" EndRow="16" Weight="1" />
+    <section Name="Introduction" BeginRow="17" EndRow="123" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="1315" EndRow="1587" Weight="0.7" />
+    <section Name="References" BeginRow="1588" EndRow="1728" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>navigation</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>information extraction</keyphrase>
+    <keyphrase>magpie</keyphrase>
+    <keyphrase>semantic concepts</keyphrase>
+    <keyphrase>annotation</keyphrase>
+    <keyphrase>annotations</keyphrase>
+    <keyphrase>services</keyphrase>
+    <keyphrase>user interaction</keyphrase>
+    <keyphrase>user interactions</keyphrase>
+    <keyphrase>semantic browsing</keyphrase>
+    <keyphrase>semantic browser</keyphrase>
+    <keyphrase>application development framework</keyphrase>
+    <keyphrase>semantic services</keyphrase>
+    <keyphrase>knowledge maintenance</keyphrase>
+    <keyphrase>semantic content</keyphrase>
+  </Keyphrases>
+</document>

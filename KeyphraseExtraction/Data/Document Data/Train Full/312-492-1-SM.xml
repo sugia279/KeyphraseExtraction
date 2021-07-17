@@ -1,0 +1,56 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>The SSN Ontology of the W3C Semantic Sensor Network Incubator Group </Title>
+    <FileName>312-492-1-SM.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="73" EndRow="77" Weight="0.7" />
+    <section Name="Keywords" BeginRow="78" EndRow="78" Weight="1" />
+    <section Name="Introduction" BeginRow="79" EndRow="138" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="872" EndRow="928" Weight="0.7" />
+    <section Name="References" BeginRow="929" EndRow="1045" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>semantic interoperability</keyphrase>
+    <keyphrase>semantic sensor web</keyphrase>
+    <keyphrase>ssn ontology</keyphrase>
+    <keyphrase>w3c semantic sensor network incubator group</keyphrase>
+    <keyphrase>linked sensor data</keyphrase>
+    <keyphrase>sensor web enablement</keyphrase>
+    <keyphrase>ssn-xg</keyphrase>
+    <keyphrase>sensor perspective</keyphrase>
+    <keyphrase>observation perspective</keyphrase>
+    <keyphrase>system perspective</keyphrase>
+    <keyphrase>system perspectives</keyphrase>
+    <keyphrase>stimulus-sensor-observation</keyphrase>
+    <keyphrase>semantic sensor network</keyphrase>
+    <keyphrase>semantic sensor networks</keyphrase>
+    <keyphrase>sensorml</keyphrase>
+  </Keyphrases>
+</document>

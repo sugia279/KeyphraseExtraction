@@ -1,0 +1,48 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Provenance-based validation of e-science experiments </Title>
+    <FileName>108-124-3-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="7" EndRow="15" Weight="0.7" />
+    <section Name="Keywords" BeginRow="16" EndRow="16" Weight="1" />
+    <section Name="Introduction" BeginRow="17" EndRow="118" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="743" EndRow="778" Weight="0.7" />
+    <section Name="References" BeginRow="783" EndRow="882" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>semantic reasoning</keyphrase>
+    <keyphrase>e-science</keyphrase>
+    <keyphrase>semantic descriptions</keyphrase>
+    <keyphrase>bioinformatics application</keyphrase>
+    <keyphrase>provenance</keyphrase>
+    <keyphrase>process validation</keyphrase>
+    <keyphrase>semantic service description</keyphrase>
+    <keyphrase>service descriptions</keyphrase>
+    <keyphrase>semantic validation architecture</keyphrase>
+  </Keyphrases>
+</document>

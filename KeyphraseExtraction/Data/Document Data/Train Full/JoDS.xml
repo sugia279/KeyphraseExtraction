@@ -1,0 +1,49 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Putting Things in Context: A Topological Approach to Mapping Contexts to Ontologies </Title>
+    <FileName>JoDS.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="3" Weight="0.9" />
+    <section Name="Abstract" BeginRow="9" EndRow="22" Weight="0.7" />
+    <section Name="Keywords" BeginRow="23" EndRow="23" Weight="1" />
+    <section Name="Introduction" BeginRow="24" EndRow="75" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="1228" EndRow="1313" Weight="0.7" />
+    <section Name="References" BeginRow="1321" EndRow="1428" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>contexts</keyphrase>
+    <keyphrase>topology</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>ontology engineering</keyphrase>
+    <keyphrase>mapping contexts</keyphrase>
+    <keyphrase>information integration</keyphrase>
+    <keyphrase>topology mapping</keyphrase>
+    <keyphrase>qualeg</keyphrase>
+    <keyphrase>multilingual ontology</keyphrase>
+  </Keyphrases>
+</document>

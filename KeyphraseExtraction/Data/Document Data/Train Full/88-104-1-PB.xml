@@ -1,0 +1,51 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>An overview of S-OGSA: a Reference Semantic Grid Architecture</Title>
+    <FileName>88-104-1-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="9" EndRow="27" Weight="0.7" />
+    <section Name="Keywords" BeginRow="31" EndRow="31" Weight="1" />
+    <section Name="Introduction" BeginRow="33" EndRow="121" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="922" EndRow="984" Weight="0.7" />
+    <section Name="References" BeginRow="992" EndRow="1076" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>semantic grid</keyphrase>
+    <keyphrase>semantic web services</keyphrase>
+    <keyphrase>architecture</keyphrase>
+    <keyphrase>s-ogsa</keyphrase>
+    <keyphrase>explicit metadata</keyphrase>
+    <keyphrase>semantic-ogsa</keyphrase>
+    <keyphrase>semantic capability</keyphrase>
+    <keyphrase>grid entities</keyphrase>
+    <keyphrase>knowledge entities</keyphrase>
+    <keyphrase>semantic provisioning services</keyphrase>
+    <keyphrase>grid</keyphrase>
+    <keyphrase>grids</keyphrase>
+  </Keyphrases>
+</document>

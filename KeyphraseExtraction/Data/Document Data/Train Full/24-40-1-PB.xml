@@ -1,0 +1,58 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>From SHIQ and RDF to OWL: The Making of a Web Ontology Language </Title>
+    <FileName>24-40-1-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="24" EndRow="32" Weight="0.7" />
+    <section Name="Keywords" BeginRow="33" EndRow="34" Weight="1" />
+    <section Name="Introduction" BeginRow="35" EndRow="71" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="1391" EndRow="1439" Weight="0.7" />
+    <section Name="References" BeginRow="1450" EndRow="1566" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>web ontology language</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>rdf</keyphrase>
+    <keyphrase>rdfs</keyphrase>
+    <keyphrase>oil</keyphrase>
+    <keyphrase>OIL</keyphrase>
+    <keyphrase>daml+oil</keyphrase>
+    <keyphrase>DAML+OIL</keyphrase>
+    <keyphrase>rdf/xml</keyphrase>
+    <keyphrase>RDF/XML</keyphrase>
+    <keyphrase>description logics</keyphrase>
+    <keyphrase>daml-ont</keyphrase>
+    <keyphrase>DAML-ONT</keyphrase>
+    <keyphrase>owl dl</keyphrase>
+    <keyphrase>owl lite</keyphrase>
+    <keyphrase>owl full</keyphrase>
+    <keyphrase>resource description framework ( rdf )</keyphrase>
+  </Keyphrases>
+</document>

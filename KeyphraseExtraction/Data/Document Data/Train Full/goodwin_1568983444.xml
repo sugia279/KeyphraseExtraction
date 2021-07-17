@@ -1,0 +1,51 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>An Ontology-Based Sensor Network Prototype Environment </Title>
+    <FileName>goodwin_1568983444.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="14" EndRow="36" Weight="0.7" />
+    <section Name="Keywords" BeginRow="38" EndRow="39" Weight="1" />
+    <section Name="Introduction" BeginRow="40" EndRow="68" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="193" EndRow="199" Weight="0.7" />
+    <section Name="References" BeginRow="206" EndRow="241" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>data fusion</keyphrase>
+    <keyphrase>sensor ontologies</keyphrase>
+    <keyphrase>sensor ontology</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>owl</keyphrase>
+    <keyphrase>web service</keyphrase>
+    <keyphrase>web services</keyphrase>
+    <keyphrase>distributed repositories</keyphrase>
+    <keyphrase>distributed repository</keyphrase>
+    <keyphrase>ontology-based sensor network prototype</keyphrase>
+    <keyphrase>ontology web language ( owl )</keyphrase>
+    <keyphrase>sensor service broker</keyphrase>
+  </Keyphrases>
+</document>

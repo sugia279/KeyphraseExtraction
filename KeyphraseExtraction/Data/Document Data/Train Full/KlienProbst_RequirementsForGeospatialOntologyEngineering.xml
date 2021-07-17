@@ -1,0 +1,52 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Requirements for Geospatial Ontology Engineering </Title>
+    <FileName>KlienProbst_RequirementsForGeospatialOntologyEngineering.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="10" EndRow="18" Weight="0.7" />
+    <section Name="Keywords" BeginRow="20" EndRow="20" Weight="1" />
+    <section Name="Introduction" BeginRow="22" EndRow="53" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="333" EndRow="380" Weight="0.7" />
+    <section Name="References" BeginRow="388" EndRow="457" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>domain ontologies</keyphrase>
+    <keyphrase>domain ontology</keyphrase>
+    <keyphrase>geospatial ontologies</keyphrase>
+    <keyphrase>geospatial ontology</keyphrase>
+    <keyphrase>semantic matchmaking</keyphrase>
+    <keyphrase>geospatial web service</keyphrase>
+    <keyphrase>geospatial web services</keyphrase>
+    <keyphrase>gi</keyphrase>
+    <keyphrase>gis</keyphrase>
+    <keyphrase>owl ontology</keyphrase>
+    <keyphrase>owl</keyphrase>
+    <keyphrase>geospatial ontology engineering</keyphrase>
+    <keyphrase>geospatial information</keyphrase>
+  </Keyphrases>
+</document>

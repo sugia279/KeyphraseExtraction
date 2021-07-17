@@ -1,0 +1,51 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Solving Semantic Ambiguity to Improve Semantic Web based Ontology Matching </Title>
+    <FileName>gracia_om07.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="22" EndRow="41" Weight="0.7" />
+    <section Name="Keywords" BeginRow="42" EndRow="42" Weight="1" />
+    <section Name="Introduction" BeginRow="43" EndRow="75" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="510" EndRow="529" Weight="0.7" />
+    <section Name="References" BeginRow="533" EndRow="572" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>wordnet</keyphrase>
+    <keyphrase>ontology matching</keyphrase>
+    <keyphrase>ontology matches</keyphrase>
+    <keyphrase>semantic similarity</keyphrase>
+    <keyphrase>vector space models</keyphrase>
+    <keyphrase>word sense disambiguation</keyphrase>
+    <keyphrase>ontological context</keyphrase>
+    <keyphrase>ontological contexts</keyphrase>
+    <keyphrase>anchor terms</keyphrase>
+    <keyphrase>semantic ambiguity</keyphrase>
+    <keyphrase>anchoring process</keyphrase>
+  </Keyphrases>
+</document>

@@ -1,0 +1,51 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>An ontology-based system for interactive exploration of information sources </Title>
+    <FileName>FP41-Broekstra.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="19" EndRow="26" Weight="0.7" />
+    <section Name="Keywords" BeginRow="28" EndRow="29" Weight="1" />
+    <section Name="Introduction" BeginRow="30" EndRow="40" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="86" EndRow="100" Weight="0.7" />
+    <section Name="References" BeginRow="101" EndRow="125" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>metadata</keyphrase>
+    <keyphrase>sesame</keyphrase>
+    <keyphrase>aperture</keyphrase>
+    <keyphrase>spectacle</keyphrase>
+    <keyphrase>browsing</keyphrase>
+    <keyphrase>cluster map</keyphrase>
+    <keyphrase>facet navigation</keyphrase>
+    <keyphrase>rdf</keyphrase>
+    <keyphrase>information visualization</keyphrase>
+    <keyphrase>interactive exploration</keyphrase>
+    <keyphrase>information sources</keyphrase>
+    <keyphrase>ontology-based system</keyphrase>
+  </Keyphrases>
+</document>

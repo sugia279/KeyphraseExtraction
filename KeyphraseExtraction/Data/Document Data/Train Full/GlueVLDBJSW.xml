@@ -1,0 +1,53 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Learning to Match Ontologies on the Semantic Web </Title>
+    <FileName>GlueVLDBJSW.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="3" EndRow="3" Weight="0.9" />
+    <section Name="Abstract" BeginRow="21" EndRow="47" Weight="0.7" />
+    <section Name="Keywords" BeginRow="48" EndRow="49" Weight="1" />
+    <section Name="Introduction" BeginRow="50" EndRow="153" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="2203" EndRow="2226" Weight="0.7" />
+    <section Name="References" BeginRow="2237" EndRow="2387" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>machine learning</keyphrase>
+    <keyphrase>ontology mapping</keyphrase>
+    <keyphrase>ontology mappings</keyphrase>
+    <keyphrase>ontology learning</keyphrase>
+    <keyphrase>ontology matching</keyphrase>
+    <keyphrase>glue</keyphrase>
+    <keyphrase>relaxation labeling</keyphrase>
+    <keyphrase>relaxation labeler</keyphrase>
+    <keyphrase>glue architecture</keyphrase>
+    <keyphrase>distribution estimator</keyphrase>
+    <keyphrase>similarity estimator</keyphrase>
+    <keyphrase>glue approach</keyphrase>
+    <keyphrase>glue system</keyphrase>
+  </Keyphrases>
+</document>

@@ -1,0 +1,15 @@
+ontology mapping
+ontology merging
+ontology coordination
+latent semantic indexing
+wordnet
+hcone-merge
+description logic
+ontology
+semi-automatic
+semi-automated
+s-morphism
+merging method
+automated mapping
+gold-standard ontology
+gold-standard

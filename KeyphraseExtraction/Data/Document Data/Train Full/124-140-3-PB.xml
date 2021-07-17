@@ -1,0 +1,49 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Patterns of semantic relations to improve image content search </Title>
+    <FileName>124-140-3-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="12" EndRow="17" Weight="0.7" />
+    <section Name="Keywords" BeginRow="18" EndRow="18" Weight="1" />
+    <section Name="Introduction" BeginRow="19" EndRow="96" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="716" EndRow="754" Weight="0.7" />
+    <section Name="References" BeginRow="755" EndRow="849" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>wordnet</keyphrase>
+    <keyphrase>image retrieval</keyphrase>
+    <keyphrase>semantic relations</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>query expansion</keyphrase>
+    <keyphrase>semantic annotation</keyphrase>
+    <keyphrase>hyponyms</keyphrase>
+    <keyphrase>meronym</keyphrase>
+    <keyphrase>holonym</keyphrase>
+    <keyphrase>hypernym relations</keyphrase>
+  </Keyphrases>
+</document>

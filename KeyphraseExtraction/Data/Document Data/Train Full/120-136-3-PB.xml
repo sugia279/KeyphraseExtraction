@@ -1,0 +1,58 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>DOLCE ergo SUMO: On foundational and domain models in the SmartWeb Integrated Ontology (SWIntO) </Title>
+    <FileName>120-136-3-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="67" EndRow="77" Weight="0.7" />
+    <section Name="Keywords" BeginRow="78" EndRow="79" Weight="1" />
+    <section Name="Introduction" BeginRow="88" EndRow="191" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="1363" EndRow="1394" Weight="0.7" />
+    <section Name="References" BeginRow="1402" EndRow="1522" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>foundational ontology</keyphrase>
+    <keyphrase>foundational ontologies</keyphrase>
+    <keyphrase>dolce</keyphrase>
+    <keyphrase>ontology management</keyphrase>
+    <keyphrase>domain ontology</keyphrase>
+    <keyphrase>domain ontologies</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>collaborative ontology engineering</keyphrase>
+    <keyphrase>mobile computing</keyphrase>
+    <keyphrase>smartweb project</keyphrase>
+    <keyphrase>conceptual clarity</keyphrase>
+    <keyphrase>ontology design patterns</keyphrase>
+    <keyphrase>swinto</keyphrase>
+    <keyphrase>sumo</keyphrase>
+    <keyphrase>core ontology</keyphrase>
+    <keyphrase>ambient intelligence</keyphrase>
+    <keyphrase>smartweb integrated ontology</keyphrase>
+  </Keyphrases>
+</document>

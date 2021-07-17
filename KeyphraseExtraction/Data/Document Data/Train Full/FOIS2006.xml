@@ -1,0 +1,55 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Using Selectional Restrictions to Query an OWL Ontology </Title>
+    <FileName>FOIS2006.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="19" EndRow="28" Weight="0.7" />
+    <section Name="Keywords" BeginRow="29" EndRow="30" Weight="1" />
+    <section Name="Introduction" BeginRow="31" EndRow="89" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="394" EndRow="428" Weight="0.7" />
+    <section Name="References" BeginRow="434" EndRow="493" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>mean reciprocal rank</keyphrase>
+    <keyphrase>natural language</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>owl ontology</keyphrase>
+    <keyphrase>semantic restrictions</keyphrase>
+    <keyphrase>ontology interface</keyphrase>
+    <keyphrase>selectional restrictions</keyphrase>
+    <keyphrase>fungalweb ontology</keyphrase>
+    <keyphrase>general purpose semantic lexicon</keyphrase>
+    <keyphrase>international semantic web conference ( iswc )</keyphrase>
+    <keyphrase>query answering systems</keyphrase>
+    <keyphrase>querying ontologies natural language interfaces</keyphrase>
+    <keyphrase>question answering system</keyphrase>
+    <keyphrase>semantic web infrastructure</keyphrase>
+    <keyphrase>semantic web querying language</keyphrase>
+    <keyphrase>semantic web query answering engine</keyphrase>
+  </Keyphrases>
+</document>

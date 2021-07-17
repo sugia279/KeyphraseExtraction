@@ -1,0 +1,55 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Ontologies are us: A uni?ed model of social networks and semantics </Title>
+    <FileName>106-122-3-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="4" EndRow="8" Weight="0.7" />
+    <section Name="Keywords" BeginRow="9" EndRow="9" Weight="1" />
+    <section Name="Introduction" BeginRow="10" EndRow="70" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="959" EndRow="1024" Weight="0.7" />
+    <section Name="References" BeginRow="1025" EndRow="1082" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>social networks</keyphrase>
+    <keyphrase>folksonomies</keyphrase>
+    <keyphrase>folksonomy</keyphrase>
+    <keyphrase>tagging</keyphrase>
+    <keyphrase>tags</keyphrase>
+    <keyphrase>tagged</keyphrase>
+    <keyphrase>knowledge representation</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>ontology learning</keyphrase>
+    <keyphrase>social dimension</keyphrase>
+    <keyphrase>graph transformation</keyphrase>
+    <keyphrase>ontology emergence</keyphrase>
+    <keyphrase>emergent semantics</keyphrase>
+    <keyphrase>semantic social networks</keyphrase>
+  </Keyphrases>
+</document>

@@ -1,0 +1,43 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Ontologies for ecoinformatics </Title>
+    <FileName>101-117-3-PB.pdf</FileName>
+    <Creator>Richard J. Williamsa,b, Neo D. Martineza, Jennifer Golbeckc,*aPaci?c Ecoinformatics and Computational Ecology Lab, 1604 McGee Ave. Berkeley, CA 94703, United StatesbSan Francisco State University, Computer Science Department, San Francisco, CA, United StatescUniversity of Maryland, Computer Science Department, A.V.</Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="14" EndRow="20" Weight="0.7" />
+    <section Name="Keywords" BeginRow="21" EndRow="21" Weight="1" />
+    <section Name="Introduction" BeginRow="22" EndRow="84" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="412" EndRow="432" Weight="0.7" />
+    <section Name="References" BeginRow="442" EndRow="456" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>ecology</keyphrase>
+    <keyphrase>ecological data</keyphrase>
+  </Keyphrases>
+</document>

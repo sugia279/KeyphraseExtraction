@@ -1,0 +1,60 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Ontology Quality by Detection of Conflicts in Metadata </Title>
+    <FileName>eon2006arpinaretal.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="21" EndRow="35" Weight="0.7" />
+    <section Name="Keywords" BeginRow="37" EndRow="38" Weight="1" />
+    <section Name="Introduction" BeginRow="39" EndRow="106" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="580" EndRow="602" Weight="0.7" />
+    <section Name="References" BeginRow="630" EndRow="757" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>metadata</keyphrase>
+    <keyphrase>ruleml</keyphrase>
+    <keyphrase>rdf</keyphrase>
+    <keyphrase>rdfs</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>ontology evaluation</keyphrase>
+    <keyphrase>ontology quality</keyphrase>
+    <keyphrase>conflicting information</keyphrase>
+    <keyphrase>rules</keyphrase>
+    <keyphrase>semantic metadata</keyphrase>
+    <keyphrase>conflict detection</keyphrase>
+    <keyphrase>conflicts</keyphrase>
+    <keyphrase>conflicting</keyphrase>
+    <keyphrase>owl language</keyphrase>
+    <keyphrase>rdf triple</keyphrase>
+    <keyphrase>owl web ontology language semantics</keyphrase>
+    <keyphrase>rule engine identifies conflicting statements</keyphrase>
+    <keyphrase>scalable conflict identification techniques</keyphrase>
+    <keyphrase>schema-level semantic conflicts</keyphrase>
+    <keyphrase>semantic conflicts detection</keyphrase>
+    <keyphrase>semantic web rules</keyphrase>
+  </Keyphrases>
+</document>

@@ -1,0 +1,59 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>FCA-Mapping: A Method for Ontology Mapping </Title>
+    <FileName>FCA-Mapping.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="6" EndRow="15" Weight="0.7" />
+    <section Name="Keywords" BeginRow="16" EndRow="17" Weight="1" />
+    <section Name="Introduction" BeginRow="18" EndRow="115" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="1414" EndRow="1425" Weight="0.7" />
+    <section Name="References" BeginRow="1426" EndRow="1472" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>ontology mapping</keyphrase>
+    <keyphrase>ontology mappings</keyphrase>
+    <keyphrase>agents</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>formal concept analysis</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>fca-mapping</keyphrase>
+    <keyphrase>computing similarity</keyphrase>
+    <keyphrase>mapping relations</keyphrase>
+    <keyphrase>relation measure</keyphrase>
+    <keyphrase>relation measures</keyphrase>
+    <keyphrase>similarity measure</keyphrase>
+    <keyphrase>similarity measures</keyphrase>
+    <keyphrase>inclusion measure</keyphrase>
+    <keyphrase>inclusion measures</keyphrase>
+    <keyphrase>inclusion measure aggregation</keyphrase>
+    <keyphrase>semantic mapping</keyphrase>
+    <keyphrase>semantic mappings</keyphrase>
+    <keyphrase>similarity-based ontology alignment</keyphrase>
+  </Keyphrases>
+</document>

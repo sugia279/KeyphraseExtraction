@@ -1,0 +1,51 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Including Domain-Specific Reasoners with Reusable Ontologies </Title>
+    <FileName>Including Domain-Specific Reasoners with Reusable Ontologies.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="10" EndRow="35" Weight="0.7" />
+    <section Name="Keywords" BeginRow="7" EndRow="8" Weight="1" />
+    <section Name="Introduction" BeginRow="36" EndRow="91" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="674" EndRow="696" Weight="0.7" />
+    <section Name="References" BeginRow="698" EndRow="770" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>knowledge engineering</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>intelligent systems</keyphrase>
+    <keyphrase>artificial intelligence</keyphrase>
+    <keyphrase>reusable ontologies</keyphrase>
+    <keyphrase>reusable knowledge</keyphrase>
+    <keyphrase>temporal reasoning</keyphrase>
+    <keyphrase>temporal reasoners</keyphrase>
+    <keyphrase>knowledge-based</keyphrase>
+    <keyphrase>ontology simple time</keyphrase>
+    <keyphrase>ontology’s temporal</keyphrase>
+  </Keyphrases>
+</document>

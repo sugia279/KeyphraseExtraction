@@ -1,0 +1,48 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Swoop: A ‘Web’ Ontology Editing Browser </Title>
+    <FileName>91-107-1-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="23" EndRow="31" Weight="0.7" />
+    <section Name="Keywords" BeginRow="32" EndRow="32" Weight="1" />
+    <section Name="Introduction" BeginRow="33" EndRow="70" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="495" EndRow="529" Weight="0.7" />
+    <section Name="References" BeginRow="530" EndRow="605" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>swoop</keyphrase>
+    <keyphrase>systems</keyphrase>
+    <keyphrase>design rationale</keyphrase>
+    <keyphrase>owl ontologies</keyphrase>
+    <keyphrase>owl</keyphrase>
+    <keyphrase>ontology engineering</keyphrase>
+    <keyphrase>ontology browser and editor based</keyphrase>
+    <keyphrase>ontologies to support collaborative ontology</keyphrase>
+    <keyphrase>web-oriented ontology lan guage</keyphrase>
+  </Keyphrases>
+</document>

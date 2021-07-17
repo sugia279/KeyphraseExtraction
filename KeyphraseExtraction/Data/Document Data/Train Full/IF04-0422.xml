@@ -1,0 +1,51 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Plan ontology and its applications </Title>
+    <FileName>IF04-0422.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="8" EndRow="22" Weight="0.7" />
+    <section Name="Keywords" BeginRow="23" EndRow="24" Weight="1" />
+    <section Name="Introduction" BeginRow="25" EndRow="74" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="492" EndRow="539" Weight="0.7" />
+    <section Name="References" BeginRow="548" EndRow="592" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>daml+oil</keyphrase>
+    <keyphrase>information extracted</keyphrase>
+    <keyphrase>document retrieval</keyphrase>
+    <keyphrase>graph visulization</keyphrase>
+    <keyphrase>rdfs</keyphrase>
+    <keyphrase>knowledge engineering</keyphrase>
+    <keyphrase>information retrieval</keyphrase>
+    <keyphrase>information systems</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>plan ontology</keyphrase>
+    <keyphrase>ontological web</keyphrase>
+    <keyphrase>owl-dl</keyphrase>
+  </Keyphrases>
+</document>

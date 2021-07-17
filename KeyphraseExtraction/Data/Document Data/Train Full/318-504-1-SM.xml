@@ -1,0 +1,48 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Understanding Why Users Tag: A Survey of Tagging Motivation Literature and Results from an Empirical Study </Title>
+    <FileName>318-504-1-SM.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="15" EndRow="30" Weight="0.7" />
+    <section Name="Keywords" BeginRow="31" EndRow="31" Weight="1" />
+    <section Name="Introduction" BeginRow="32" EndRow="148" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="1471" EndRow="1564" Weight="0.7" />
+    <section Name="References" BeginRow="1565" EndRow="1740" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>folksonomies</keyphrase>
+    <keyphrase>folksonomy</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>social tagging systems</keyphrase>
+    <keyphrase>user motivations</keyphrase>
+    <keyphrase>describing resources</keyphrase>
+    <keyphrase>tagging motivation</keyphrase>
+    <keyphrase>user goals</keyphrase>
+    <keyphrase>emergent semantics</keyphrase>
+  </Keyphrases>
+</document>

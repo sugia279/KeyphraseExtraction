@@ -1,0 +1,49 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Ontology-based Knowledge Organization in a Semantic Web for Pathology </Title>
+    <FileName>iknow04.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="21" EndRow="28" Weight="0.7" />
+    <section Name="Keywords" BeginRow="29" EndRow="29" Weight="1" />
+    <section Name="Introduction" BeginRow="30" EndRow="71" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="344" EndRow="354" Weight="0.7" />
+    <section Name="References" BeginRow="356" EndRow="382" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>knowledge management</keyphrase>
+    <keyphrase>domain ontology</keyphrase>
+    <keyphrase>domain ontologies</keyphrase>
+    <keyphrase>knowledge organization</keyphrase>
+    <keyphrase>ontology-based</keyphrase>
+    <keyphrase>digital pathology</keyphrase>
+    <keyphrase>retrieval system</keyphrase>
+    <keyphrase>telepathology</keyphrase>
+    <keyphrase>medical knowledge</keyphrase>
+  </Keyphrases>
+</document>

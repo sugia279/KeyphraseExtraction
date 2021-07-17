@@ -1,0 +1,56 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>AN ONTOLOGY OF VIRTUAL HUMANS: INCORPORATING SEMANTICS INTO HUMAN SHAPES </Title>
+    <FileName>Garcia-Rojas_and_al_EWIMT_05.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="22" EndRow="37" Weight="0.7" />
+    <section Name="Keywords" BeginRow="20" EndRow="21" Weight="1" />
+    <section Name="Introduction" BeginRow="38" EndRow="86" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="476" EndRow="527" Weight="0.7" />
+    <section Name="References" BeginRow="528" EndRow="621" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>semantic annotations</keyphrase>
+    <keyphrase>knowledge related</keyphrase>
+    <keyphrase>virtual humans</keyphrase>
+    <keyphrase>virtual objects</keyphrase>
+    <keyphrase>human shape reconstruction</keyphrase>
+    <keyphrase>human shape synthesis</keyphrase>
+    <keyphrase>human shape synthesis methods</keyphrase>
+    <keyphrase>human shape variation using volumetric</keyphrase>
+    <keyphrase>human shape morphologies</keyphrase>
+    <keyphrase>interactive 3d graphics</keyphrase>
+    <keyphrase>meaningful shape features</keyphrase>
+    <keyphrase>modelling active virtual humans</keyphrase>
+    <keyphrase>motion capture techniques</keyphrase>
+    <keyphrase>multiple visual representations</keyphrase>
+    <keyphrase>ontology-based approach</keyphrase>
+  </Keyphrases>
+</document>

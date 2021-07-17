@@ -1,0 +1,50 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>OWL-Eu: Adding Customised Datatypes into OWL </Title>
+    <FileName>81-97-1-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="7" EndRow="15" Weight="0.7" />
+    <section Name="Keywords" BeginRow="16" EndRow="17" Weight="1" />
+    <section Name="Introduction" BeginRow="18" EndRow="81" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="2192" EndRow="2218" Weight="0.7" />
+    <section Name="References" BeginRow="2220" EndRow="2287" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>owl</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>description logics</keyphrase>
+    <keyphrase>rdf</keyphrase>
+    <keyphrase>rdfs</keyphrase>
+    <keyphrase>owl-eu</keyphrase>
+    <keyphrase>customised datatypes</keyphrase>
+    <keyphrase>unary datatype groups</keyphrase>
+    <keyphrase>enumerated datatype</keyphrase>
+    <keyphrase>enumerated datatypes</keyphrase>
+  </Keyphrases>
+</document>

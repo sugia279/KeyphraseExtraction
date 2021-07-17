@@ -1,0 +1,50 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Variable-strength conditional preferences for ranking objects in ontologies </Title>
+    <FileName>122-138-3-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="12" EndRow="26" Weight="0.7" />
+    <section Name="Keywords" BeginRow="27" EndRow="27" Weight="1" />
+    <section Name="Introduction" BeginRow="28" EndRow="188" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="2192" EndRow="2249" Weight="0.7" />
+    <section Name="References" BeginRow="2250" EndRow="2388" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>ranking</keyphrase>
+    <keyphrase>ranks</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>description logic</keyphrase>
+    <keyphrase>description logics</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>algorithms and complexity</keyphrase>
+    <keyphrase>variable-strength</keyphrase>
+    <keyphrase>literature search</keyphrase>
+    <keyphrase>variable-strength conditional preference</keyphrase>
+    <keyphrase>conditional preferences</keyphrase>
+  </Keyphrases>
+</document>

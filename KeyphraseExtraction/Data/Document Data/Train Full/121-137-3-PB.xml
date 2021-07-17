@@ -1,0 +1,48 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Web Authoring for Accessibility (WAfA) </Title>
+    <FileName>121-137-3-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="1" Weight="0.9" />
+    <section Name="Abstract" BeginRow="6" EndRow="13" Weight="0.7" />
+    <section Name="Keywords" BeginRow="14" EndRow="14" Weight="1" />
+    <section Name="Introduction" BeginRow="15" EndRow="55" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="339" EndRow="398" Weight="0.7" />
+    <section Name="References" BeginRow="399" EndRow="442" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>xhtml</keyphrase>
+    <keyphrase>web document</keyphrase>
+    <keyphrase>web accessibility</keyphrase>
+    <keyphrase>wafa ontology</keyphrase>
+    <keyphrase>authoring semantics</keyphrase>
+    <keyphrase>mobility semantics</keyphrase>
+    <keyphrase>contextual semantics</keyphrase>
+  </Keyphrases>
+</document>

@@ -1,0 +1,51 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Identifying key concepts in an ontology, through the integration of cognitive principles with statistical and topological measures </Title>
+    <FileName>key_concepts_aswc.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="3" Weight="0.9" />
+    <section Name="Abstract" BeginRow="9" EndRow="20" Weight="0.7" />
+    <section Name="Keywords" BeginRow="21" EndRow="22" Weight="1" />
+    <section Name="Introduction" BeginRow="24" EndRow="86" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="664" EndRow="685" Weight="0.7" />
+    <section Name="References" BeginRow="691" EndRow="716" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>cognitive science</keyphrase>
+    <keyphrase>lexical statistics</keyphrase>
+    <keyphrase>ontology summarization</keyphrase>
+    <keyphrase>automatic classification</keyphrase>
+    <keyphrase>ontology evaluation</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>key concepts</keyphrase>
+    <keyphrase>natural categories</keyphrase>
+    <keyphrase>natural category</keyphrase>
+    <keyphrase>ontology engineering</keyphrase>
+  </Keyphrases>
+</document>

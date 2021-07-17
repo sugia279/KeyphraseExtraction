@@ -1,0 +1,55 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Learning to Map between Ontologies on the Semantic Web </Title>
+    <FileName>glue.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="7" EndRow="50" Weight="0.7" />
+    <section Name="Keywords" BeginRow="52" EndRow="53" Weight="1" />
+    <section Name="Introduction" BeginRow="54" EndRow="257" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="1348" EndRow="1374" Weight="0.7" />
+    <section Name="References" BeginRow="1385" EndRow="1497" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>ontology mapping</keyphrase>
+    <keyphrase>ontology mappings</keyphrase>
+    <keyphrase>machine learning</keyphrase>
+    <keyphrase>ontology learning</keyphrase>
+    <keyphrase>natural language processing</keyphrase>
+    <keyphrase>ontology integration</keyphrase>
+    <keyphrase>glue</keyphrase>
+    <keyphrase>relaxation labeling</keyphrase>
+    <keyphrase>relaxation labeler</keyphrase>
+    <keyphrase>glue architecture</keyphrase>
+    <keyphrase>distribution estimator</keyphrase>
+    <keyphrase>similarity estimator</keyphrase>
+    <keyphrase>machine-learning technique</keyphrase>
+    <keyphrase>machine learning methods</keyphrase>
+    <keyphrase>glue system</keyphrase>
+  </Keyphrases>
+</document>

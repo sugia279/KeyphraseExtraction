@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE777089-CDFA-4C95-B979-E198A8C06523}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KeyphraseExtraction</RootNamespace>
+    <AssemblyName>KeyphraseExtraction</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IronPython">
+      <HintPath>..\packages\IronPython.2.7.5\lib\Net45\IronPython.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython.Modules">
+      <HintPath>..\packages\IronPython.2.7.5\lib\Net45\IronPython.Modules.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython.SQLite">
+      <HintPath>..\packages\IronPython.2.7.5\lib\Net45\IronPython.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython.Wpf">
+      <HintPath>..\packages\IronPython.2.7.5\lib\Net45\IronPython.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\packages\iTextSharp.5.5.6\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamic">
+      <HintPath>..\packages\IronPython.2.7.5\lib\Net45\Microsoft.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting">
+      <HintPath>..\packages\IronPython.2.7.5\lib\Net45\Microsoft.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.AspNet">
+      <HintPath>..\packages\IronPython.2.7.5\lib\Net45\Microsoft.Scripting.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.Metadata">
+      <HintPath>..\packages\IronPython.2.7.5\lib\Net45\Microsoft.Scripting.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="BaseClass\CustomDataGrid.cs" />
+    <Compile Include="BaseClass\DataGridColumnsBehavior.cs" />
+    <Compile Include="BaseClass\IndexConverter.cs" />
+    <Compile Include="BaseClass\ObservableNotifyObject.cs" />
+    <Compile Include="BaseClass\RelayCommand.cs" />
+    <Compile Include="BaseClass\Settings.cs" />
+    <Compile Include="KEUtilities\DBUtilities.cs" />
+    <Compile Include="KEUtilities\NaiveBayesClassifier.cs" />
+    <Compile Include="KEUtilities\NLTKLibPythonProcess.cs" />
+    <Compile Include="KEUtilities\StatisticCalculationHelper.cs" />
+    <Compile Include="KEUtilities\StringProcessor.cs" />
+    <Compile Include="Model\Class.cs" />
+    <Compile Include="Model\Document.cs" />
+    <Compile Include="Model\DocumentExtractionXML.cs" />
+    <Compile Include="Model\DocumentItem.cs" />
+    <Compile Include="Model\CandidateTerm.cs" />
+    <Compile Include="Model\DocumentStructure.cs" />
+    <Compile Include="Model\DocumentExtractionDB.cs" />
+    <Compile Include="Model\OntologyDB.cs" />
+    <Compile Include="Model\Sentence.cs" />
+    <Compile Include="KEUtilities\EnglishWord.cs" />
+    <Compile Include="KEUtilities\NGram.cs" />
+    <Compile Include="KEUtilities\PorterStemmer.cs" />
+    <Compile Include="KEUtilities\Region.cs" />
+    <Compile Include="KEUtilities\StopWordsHandler.cs" />
+    <Compile Include="KEUtilities\PDFParser.cs" />
+    <Compile Include="Themes\WindowResizer.cs" />
+    <Compile Include="Themes\WindowStyle.xaml.cs">
+      <DependentUpon>WindowStyle.xaml</DependentUpon>
+    </Compile>
+    <Page Include="View\UpdateOntologyWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\KeyphraseExtractionResultWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\DocumentSavingWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\TrainingWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViewModel\DocumentSavingViewModel.cs" />
+    <Compile Include="ViewModel\KeyphraseExtractionResultViewModel.cs" />
+    <Compile Include="ViewModel\TrainingViewModel.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="View\UpdateOntologyWindow.xaml.cs">
+      <DependentUpon>UpdateOntologyWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\KeyphraseExtractionResultWindow.xaml.cs">
+      <DependentUpon>KeyphraseExtractionResultWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\DocumentSavingWindow.xaml.cs">
+      <DependentUpon>DocumentSavingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TrainingWindow.xaml.cs">
+      <DependentUpon>TrainingWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Themes\Skins\ExpressionDark.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\WindowStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Data\Document Data\Test1\24-40-1-PB.pdf" />
+    <None Include="Data\Document Data\Test1\26-42-1-PB.pdf" />
+    <None Include="Data\Document Data\Test1\29-45-1-PB.pdf" />
+    <None Include="Data\Document Data\Test1\30-46-1-PB.pdf" />
+    <None Include="Data\Document Data\Test1\81-97-1-PB.pdf" />
+    <None Include="Data\Document Data\Test1\82-98-1-PB.pdf" />
+    <None Include="Data\Document Data\Test1\83-99-1-PB.pdf" />
+    <None Include="Data\Document Data\Test1\85-101-1-PB.pdf" />
+    <None Include="Data\Document Data\Test1\88-104-1-PB.pdf" />
+    <None Include="Data\Document Data\Test1\90-106-1-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\101-117-3-PB.key" />
+    <None Include="Data\Document Data\Train Full\101-117-3-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\102-118-3-PB.key" />
+    <None Include="Data\Document Data\Train Full\102-118-3-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\106-122-3-PB.key" />
+    <None Include="Data\Document Data\Train Full\106-122-3-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\108-124-3-PB.key" />
+    <None Include="Data\Document Data\Train Full\108-124-3-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\109-125-3-PB.key" />
+    <None Include="Data\Document Data\Train Full\109-125-3-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\119-135-3-PB.key" />
+    <None Include="Data\Document Data\Train Full\119-135-3-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\120-136-3-PB.key" />
+    <None Include="Data\Document Data\Train Full\120-136-3-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\121-137-3-PB.key" />
+    <None Include="Data\Document Data\Train Full\121-137-3-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\122-138-3-PB.key" />
+    <None Include="Data\Document Data\Train Full\122-138-3-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\123-139-3-PB.key" />
+    <None Include="Data\Document Data\Train Full\123-139-3-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\124-140-3-PB.key" />
+    <None Include="Data\Document Data\Train Full\124-140-3-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\24-40-1-PB.key" />
+    <None Include="Data\Document Data\Train Full\24-40-1-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\26-42-1-PB.key" />
+    <None Include="Data\Document Data\Train Full\26-42-1-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\29-45-1-PB.key" />
+    <None Include="Data\Document Data\Train Full\29-45-1-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\299-468-1-SM.key" />
+    <None Include="Data\Document Data\Train Full\299-468-1-SM.pdf" />
+    <None Include="Data\Document Data\Train Full\30-46-1-PB.key" />
+    <None Include="Data\Document Data\Train Full\30-46-1-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\312-492-1-SM.key" />
+    <None Include="Data\Document Data\Train Full\312-492-1-SM.pdf" />
+    <None Include="Data\Document Data\Train Full\318-504-1-SM.key" />
+    <None Include="Data\Document Data\Train Full\318-504-1-SM.pdf" />
+    <None Include="Data\Document Data\Train Full\324-518-1-SM.key" />
+    <None Include="Data\Document Data\Train Full\324-518-1-SM.pdf" />
+    <None Include="Data\Document Data\Train Full\81-97-1-PB.key" />
+    <None Include="Data\Document Data\Train Full\81-97-1-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\82-98-1-PB.key" />
+    <None Include="Data\Document Data\Train Full\82-98-1-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\83-99-1-PB.key" />
+    <None Include="Data\Document Data\Train Full\83-99-1-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\85-101-1-PB.key" />
+    <None Include="Data\Document Data\Train Full\85-101-1-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\88-104-1-PB.key" />
+    <None Include="Data\Document Data\Train Full\88-104-1-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\90-106-1-PB.key" />
+    <None Include="Data\Document Data\Train Full\90-106-1-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\91-107-1-PB.key" />
+    <None Include="Data\Document Data\Train Full\91-107-1-PB.pdf" />
+    <None Include="Data\Document Data\Train Full\C12-3046.key" />
+    <None Include="Data\Document Data\Train Full\C12-3046.pdf" />
+    <None Include="Data\Document Data\Train Full\COSIT99MST.key" />
+    <None Include="Data\Document Data\Train Full\COSIT99MST.pdf" />
+    <None Include="Data\Document Data\Train Full\DOLsemantics.key" />
+    <None Include="Data\Document Data\Train Full\DOLsemantics.pdf" />
+    <None Include="Data\Document Data\Train Full\eon2006arpinaretal.key" />
+    <None Include="Data\Document Data\Train Full\eon2006arpinaretal.pdf" />
+    <None Include="Data\Document Data\Train Full\FCA-Mapping.key" />
+    <None Include="Data\Document Data\Train Full\FCA-Mapping.pdf" />
+    <None Include="Data\Document Data\Train Full\FOIS2006.key" />
+    <None Include="Data\Document Data\Train Full\FOIS2006.pdf" />
+    <None Include="Data\Document Data\Train Full\FP14-Palma.key" />
+    <None Include="Data\Document Data\Train Full\FP14-Palma.pdf" />
+    <None Include="Data\Document Data\Train Full\FP41-Broekstra.key" />
+    <None Include="Data\Document Data\Train Full\FP41-Broekstra.pdf" />
+    <None Include="Data\Document Data\Train Full\Garcia-Rojas_and_al_EWIMT_05.key" />
+    <None Include="Data\Document Data\Train Full\Garcia-Rojas_and_al_EWIMT_05.pdf" />
+    <None Include="Data\Document Data\Train Full\Garcia_ECIS_2005.key" />
+    <None Include="Data\Document Data\Train Full\Garcia_ECIS_2005.pdf" />
+    <None Include="Data\Document Data\Train Full\glue.key" />
+    <None Include="Data\Document Data\Train Full\glue.pdf" />
+    <None Include="Data\Document Data\Train Full\GlueVLDBJSW.key" />
+    <None Include="Data\Document Data\Train Full\GlueVLDBJSW.pdf" />
+    <None Include="Data\Document Data\Train Full\goodwin_1568983444.key" />
+    <None Include="Data\Document Data\Train Full\goodwin_1568983444.pdf" />
+    <None Include="Data\Document Data\Train Full\gracia_om07.key" />
+    <None Include="Data\Document Data\Train Full\gracia_om07.pdf" />
+    <None Include="Data\Document Data\Train Full\hruby.key" />
+    <None Include="Data\Document Data\Train Full\hruby.pdf" />
+    <None Include="Data\Document Data\Train Full\IF04-0422.key" />
+    <None Include="Data\Document Data\Train Full\IF04-0422.pdf" />
+    <None Include="Data\Document Data\Train Full\IJKLOv3p001-017Snae.key" />
+    <None Include="Data\Document Data\Train Full\IJKLOv3p001-017Snae.pdf" />
+    <None Include="Data\Document Data\Train Full\iknow04.key" />
+    <None Include="Data\Document Data\Train Full\iknow04.pdf" />
+    <None Include="Data\Document Data\Train Full\Including Domain-Specific Reasoners with Reusable Ontologies.key" />
+    <None Include="Data\Document Data\Train Full\Including Domain-Specific Reasoners with Reusable Ontologies.pdf" />
+    <None Include="Data\Document Data\Train Full\Information Fusion Using Ontology-Based Communication betwen Agents - 2009.key" />
+    <None Include="Data\Document Data\Train Full\Information Fusion Using Ontology-Based Communication betwen Agents - 2009.pdf" />
+    <None Include="Data\Document Data\Train Full\JoDS.key" />
+    <None Include="Data\Document Data\Train Full\JoDS.pdf" />
+    <None Include="Data\Document Data\Train Full\ker02-ontomap.key" />
+    <None Include="Data\Document Data\Train Full\ker02-ontomap.pdf" />
+    <None Include="Data\Document Data\Train Full\key_concepts_aswc.key" />
+    <None Include="Data\Document Data\Train Full\key_concepts_aswc.pdf" />
+    <None Include="Data\Document Data\Train Full\KlienProbst_RequirementsForGeospatialOntologyEngineering.key" />
+    <None Include="Data\Document Data\Train Full\KlienProbst_RequirementsForGeospatialOntologyEngineering.pdf" />
+    <None Include="Data\Document Data\Train Full\kr06.key" />
+    <None Include="Data\Document Data\Train Full\kr06.pdf" />
+    <None Include="Data\Document Data\Train Full\KSL-06-20.key" />
+    <None Include="Data\Document Data\Train Full\KSL-06-20.pdf" />
+    <None Include="Data\Document Data\Train Full\lagoze_hunter_dc2001.key" />
+    <None Include="Data\Document Data\Train Full\lagoze_hunter_dc2001.pdf" />
+    <None Include="Data\Document Data\Train Full\LaRIARR2005-03.key" />
+    <None Include="Data\Document Data\Train Full\LaRIARR2005-03.pdf" />
+    <None Include="Data\Document Data\Train Full\marine.key" />
+    <None Include="Data\Document Data\Train Full\marine.pdf" />
+    <None Include="Data\Document Data\Train Full\Meersman.key" />
+    <None Include="Data\Document Data\Train Full\Meersman.pdf" />
+    <None Include="Data\Document Data\Train Full\MIDAS_Scientific_Publication_2.key" />
+    <None Include="Data\Document Data\Train Full\MIDAS_Scientific_Publication_2.pdf" />
+    <None Include="Data\Document Data\Train Full\NBE.key" />
+    <None Include="Data\Document Data\Train Full\NBE.pdf" />
+    <None Include="Data\Document Data\Train Full\Noms2006_keeney.key" />
+    <None Include="Data\Document Data\Train Full\Noms2006_keeney.pdf" />
+    <None Include="Data\Document Data\Train Full\oas-aamas2002-wang-gasser.key" />
+    <None Include="Data\Document Data\Train Full\oas-aamas2002-wang-gasser.pdf" />
+    <None Include="Data\Document Data\Train Full\ontology-mapping-aamas.key" />
+    <None Include="Data\Document Data\Train Full\ontology-mapping-aamas.pdf" />
+    <None Include="Data\Document Data\Train Full\Ontology_Matching.key" />
+    <None Include="Data\Document Data\Train Full\Ontology_Matching.pdf" />
+    <None Include="Data\Document Data\Train Full\OntoMedia.key" />
+    <None Include="Data\Document Data\Train Full\OntoMedia.pdf" />
+    <None Include="Data\Document Data\Train Full\ontowikiDemo-short-camera-ready.key" />
+    <None Include="Data\Document Data\Train Full\ontowikiDemo-short-camera-ready.pdf" />
+    <None Include="Data\Document Data\Train Full\p1070.key" />
+    <None Include="Data\Document Data\Train Full\p1070.pdf" />
+    <None Include="Data\Document Data\Train Full\p173.key" />
+    <None Include="Data\Document Data\Train Full\p173.pdf" />
+    <None Include="Data\Document Data\Train Full\p246.key" />
+    <None Include="Data\Document Data\Train Full\p246.pdf" />
+    <None Include="Data\Document Data\Train Full\p635-wu.key" />
+    <None Include="Data\Document Data\Train Full\p635-wu.pdf" />
+    <None Include="Data\Document Data\Train Full\paper464.key" />
+    <None Include="Data\Document Data\Train Full\paper464.pdf" />
+    <None Include="Data\Document Data\Train Full\paper_22.key" />
+    <None Include="Data\Document Data\Train Full\paper_22.pdf" />
+    <None Include="Data\Document Data\Train Full\poster1006.key" />
+    <None Include="Data\Document Data\Train Full\poster1006.pdf" />
+    <None Include="Data\Document Data\Train Full\PP-2007-17.text.key" />
+    <None Include="Data\Document Data\Train Full\PP-2007-17.text.pdf" />
+    <None Include="Data\Document Data\Train Full\pp49-zhdanova.key" />
+    <None Include="Data\Document Data\Train Full\pp49-zhdanova.pdf" />
+    <None Include="Data\Document Data\Train Full\Proposal for the combination of ontology assemble and ontology mapping processes %28ICKEDS%272004-Combination%29.key" />
+    <None Include="Data\Document Data\Train Full\Proposal for the combination of ontology assemble and ontology mapping processes %28ICKEDS%272004-Combination%29.pdf" />
+    <None Include="Data\Document Data\Train Full\prospects.key" />
+    <None Include="Data\Document Data\Train Full\prospects.pdf" />
+    <None Include="Data\Document Data\Train Full\PSC4334.key" />
+    <None Include="Data\Document Data\Train Full\PSC4334.pdf" />
+    <None Include="Data\Document Data\Train Full\pub2004003.key" />
+    <None Include="Data\Document Data\Train Full\pub2004003.pdf" />
+    <None Include="Data\Document Data\Train Full\pub2004050.key" />
+    <None Include="Data\Document Data\Train Full\pub2004050.pdf" />
+    <None Include="Data\Document Data\Train Full\redecs01c.key" />
+    <None Include="Data\Document Data\Train Full\redecs01c.pdf" />
+    <None Include="Data\Document Data\Train Full\REWERSE-RP-2006-058.key" />
+    <None Include="Data\Document Data\Train Full\REWERSE-RP-2006-058.pdf" />
+    <None Include="Data\Document Data\Train Full\rgrg-bis07.key" />
+    <None Include="Data\Document Data\Train Full\rgrg-bis07.pdf" />
+    <None Include="Data\Document Data\Train Full\sacco2011privacy.key" />
+    <None Include="Data\Document Data\Train Full\sacco2011privacy.pdf" />
+    <None Include="Data\Document Data\Train Full\scharlb.key" />
+    <None Include="Data\Document Data\Train Full\scharlb.pdf" />
+    <None Include="Data\Document Data\Train Full\SCI2003_Ontology Maintenance using Textual Analysis.key" />
+    <None Include="Data\Document Data\Train Full\SCI2003_Ontology Maintenance using Textual Analysis.pdf" />
+    <None Include="Data\Document Data\Train Full\sd06-huang-v2.key" />
+    <None Include="Data\Document Data\Train Full\sd06-huang-v2.pdf" />
+    <None Include="Data\Document Data\Train Full\seidenberg-www2006.key" />
+    <None Include="Data\Document Data\Train Full\seidenberg-www2006.pdf" />
+    <None Include="Data\Document Data\Train Full\SemWiki2006-Harvesting Wiki Consensus-LNCS-final.key" />
+    <None Include="Data\Document Data\Train Full\SemWiki2006-Harvesting Wiki Consensus-LNCS-final.pdf" />
+    <None Include="Data\Document Data\Train Full\SiorpaesHepp-myOntology-eswc07-camready-final.key" />
+    <None Include="Data\Document Data\Train Full\SiorpaesHepp-myOntology-eswc07-camready-final.pdf" />
+    <None Include="Data\Document Data\Train Full\SMI-2005-1072.key" />
+    <None Include="Data\Document Data\Train Full\SMI-2005-1072.pdf" />
+    <None Include="Data\Document Data\Train Full\SOA.key" />
+    <None Include="Data\Document Data\Train Full\SOA.pdf" />
+    <None Include="Data\Document Data\Train Full\submission_31.key" />
+    <None Include="Data\Document Data\Train Full\submission_31.pdf" />
+    <None Include="Data\Document Data\Train Full\submission_6.key" />
+    <None Include="Data\Document Data\Train Full\submission_6.pdf" />
+    <None Include="Data\Document Data\Train Full\SWDB-2004.key" />
+    <None Include="Data\Document Data\Train Full\SWDB-2004.pdf" />
+    <None Include="Data\Document Data\Train Full\SwoopJWS_Revised.key" />
+    <None Include="Data\Document Data\Train Full\SwoopJWS_Revised.pdf" />
+    <None Include="Data\Document Data\Train Full\tang.key" />
+    <None Include="Data\Document Data\Train Full\tang.pdf" />
+    <None Include="Data\Document Data\Train Full\tmbio19-natale.key" />
+    <None Include="Data\Document Data\Train Full\tmbio19-natale.pdf" />
+    <None Include="Data\Document Data\Train Full\UM05_Gumo.key" />
+    <None Include="Data\Document Data\Train Full\UM05_Gumo.pdf" />
+    <None Include="Data\Document Data\Train Full\v6p259-271.key" />
+    <None Include="Data\Document Data\Train Full\v6p259-271.pdf" />
+    <None Include="Data\Document Data\Train Full\W-Chen.key" />
+    <None Include="Data\Document Data\Train Full\W-Chen.pdf" />
+    <None Include="Data\Document Data\Train Full\Wielinga01a.key" />
+    <None Include="Data\Document Data\Train Full\Wielinga01a.pdf" />
+    <None Include="Data\Document Data\Train Full\WSS2005_PP-Hu.key" />
+    <None Include="Data\Document Data\Train Full\WSS2005_PP-Hu.pdf" />
+    <None Include="Data\Document Data\Train Full\WWW-Internet06-JXML2OWL.key" />
+    <None Include="Data\Document Data\Train Full\WWW-Internet06-JXML2OWL.pdf" />
+    <None Include="Data\Document Data\Train Full\yildiz_2007_icsd_ontolgy_management.key" />
+    <None Include="Data\Document Data\Train Full\yildiz_2007_icsd_ontolgy_management.pdf" />
+    <None Include="Data\OntologyDB\Ontology Data\class.csv" />
+    <None Include="Data\OntologyDB\Ontology Data\class_class_relationship.csv" />
+    <None Include="Data\OntologyDB\Ontology Data\class_keyphrase_relationship.csv" />
+    <None Include="Data\OntologyDB\Ontology Data\keyphrase.csv" />
+    <None Include="Data\OntologyDB\Ontology Data\keyphrase_keyphrase_relationship.csv" />
+    <None Include="Data\OntologyDB\Ontology Data\relationship.csv" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Document Data\Document Extraction.sql" />
+    <Resource Include="Data\Document Data\Test1\24-40-1-PB.txt" />
+    <Resource Include="Data\Document Data\Test1\26-42-1-PB.txt" />
+    <Resource Include="Data\Document Data\Test1\29-45-1-PB.txt" />
+    <Resource Include="Data\Document Data\Test1\30-46-1-PB.txt" />
+    <Resource Include="Data\Document Data\Test1\81-97-1-PB.txt" />
+    <Resource Include="Data\Document Data\Test1\82-98-1-PB.txt" />
+    <Resource Include="Data\Document Data\Test1\83-99-1-PB.txt" />
+    <Resource Include="Data\Document Data\Test1\85-101-1-PB.txt" />
+    <Resource Include="Data\Document Data\Test1\88-104-1-PB.txt" />
+    <Resource Include="Data\Document Data\Test1\90-106-1-PB.txt" />
+    <Content Include="Data\OntologyDB\Dump20150821.sql" />
+    <Content Include="Data\OntologyDB\Dump20150824.sql" />
+    <Content Include="Data\OntologyDB\Ontology Data\class.sql" />
+    <Content Include="Data\OntologyDB\Ontology Data\class_class_relationship.sql" />
+    <Content Include="Data\OntologyDB\Ontology Data\class_keyphrase_relationship.sql" />
+    <Content Include="Data\OntologyDB\Ontology Data\keyphrase.sql" />
+    <Content Include="Data\OntologyDB\Ontology Data\keyphrase_keyphrase_relationship.sql" />
+    <Content Include="Data\OntologyDB\Ontology Data\relationship.sql" />
+    <Content Include="Data\OntologyDB\Ontology DB BK.sql" />
+    <Content Include="Data\OntologyDB\Ontology DB.sql" />
+    <Content Include="Scripts\kes.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Themes\Icon.ico" />
+    <Resource Include="Themes\Images\highlighted close.png" />
+    <Resource Include="Themes\Images\highlighted maximize.bmp" />
+    <Resource Include="Themes\Images\highlighted minimize.bmp" />
+    <Resource Include="Themes\Images\normal close.png" />
+    <Resource Include="Themes\Images\normal maximize.bmp" />
+    <Resource Include="Themes\Images\normal minimize.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

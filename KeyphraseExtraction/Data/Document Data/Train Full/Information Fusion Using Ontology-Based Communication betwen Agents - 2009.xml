@@ -1,0 +1,54 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Information Fusion Using Ontology-Based Communication between Agents </Title>
+    <FileName>Information Fusion Using Ontology-Based Communication betwen Agents - 2009.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="3" EndRow="4" Weight="0.9" />
+    <section Name="Abstract" BeginRow="9" EndRow="18" Weight="0.7" />
+    <section Name="Keywords" BeginRow="20" EndRow="20" Weight="1" />
+    <section Name="Introduction" BeginRow="24" EndRow="81" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="619" EndRow="641" Weight="0.7" />
+    <section Name="References" BeginRow="642" EndRow="755" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>agents</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>multi-agent system</keyphrase>
+    <keyphrase>agent communication</keyphrase>
+    <keyphrase>conceptual graphs</keyphrase>
+    <keyphrase>knowledge representation</keyphrase>
+    <keyphrase>ontology mapping</keyphrase>
+    <keyphrase>ontology mappings</keyphrase>
+    <keyphrase>information fusion</keyphrase>
+    <keyphrase>agent communication language</keyphrase>
+    <keyphrase>data warehousing</keyphrase>
+    <keyphrase>ontology-based communication</keyphrase>
+    <keyphrase>data fusion concepts</keyphrase>
+    <keyphrase>information fusion infrastructure</keyphrase>
+  </Keyphrases>
+</document>

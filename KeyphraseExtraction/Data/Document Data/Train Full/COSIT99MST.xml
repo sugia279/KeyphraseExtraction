@@ -1,0 +1,51 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Ontology and Geographic Objects: An Empirical Study of Cognitive Categorization </Title>
+    <FileName>COSIT99MST.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="21" EndRow="34" Weight="0.7" />
+    <section Name="Keywords" BeginRow="35" EndRow="37" Weight="1" />
+    <section Name="Introduction" BeginRow="38" EndRow="134" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="479" EndRow="495" Weight="0.7" />
+    <section Name="References" BeginRow="504" EndRow="638" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>prototypes</keyphrase>
+    <keyphrase>prototypicality</keyphrase>
+    <keyphrase>mereotopology</keyphrase>
+    <keyphrase>gis</keyphrase>
+    <keyphrase>geographic objects</keyphrase>
+    <keyphrase>cognitive categorization</keyphrase>
+    <keyphrase>cognitive categorizations</keyphrase>
+    <keyphrase>geographic categories</keyphrase>
+    <keyphrase>geographic ontology</keyphrase>
+    <keyphrase>spatial cognition</keyphrase>
+    <keyphrase>geographic information systems</keyphrase>
+    <keyphrase>human subjects testing</keyphrase>
+  </Keyphrases>
+</document>

@@ -1,0 +1,456 @@
+﻿<Window x:Class="KeyphraseExtraction.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Keyphrase Extraction" WindowStartupLocation="CenterScreen" WindowState="Maximized"
+        xmlns:baseclass="clr-namespace:KeyphraseExtraction.BaseClass"      
+        xmlns:grid="clr-namespace:KeyphraseExtraction.BaseClass.CustomDatagrid"
+        Style="{DynamicResource SkinWindowStyle}">
+    <Window.Resources>
+        
+        <Style x:Key="DataGridCell_Template" TargetType="{x:Type DataGridCell}">
+            <Style.Triggers>
+                <Trigger Property="IsSelected"
+                        Value="True">
+                    <Setter Property="Background"
+                        Value="Black" />
+                    <Setter Property="Foreground"
+                        Value="White" />
+                </Trigger>
+            </Style.Triggers>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DataGridCell}">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="#BEC1C0" BorderThickness="0.5,0,0.5,0.5" Height="25">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" Margin="2,0,0,2"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="DataGridCell_Centering" TargetType="{x:Type DataGridCell}">
+            <Style.Triggers>
+                <Trigger Property="IsSelected"
+                        Value="True">
+                    <Setter Property="Background"
+                        Value="Black" />
+                    <Setter Property="Foreground"
+                        Value="White" />
+                </Trigger>
+            </Style.Triggers>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type DataGridCell}" >
+                        <Border Background="{TemplateBinding Background}" BorderBrush="#BEC1C0" BorderThickness="0.5,0,0.5,0.5" Height="25">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Left" Margin="2,0,0,2"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="DefaultRowStyle" TargetType="{x:Type DataGridRow}">
+            <Style.Triggers>
+                <Trigger Property="IsSelected"
+                        Value="True">
+                    <Setter Property="BorderBrush"
+                        Value="#3399FF" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <GroupBox Header="Content" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" Margin="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*"/>
+                    <ColumnDefinition Width="0.2*"/>
+                    <ColumnDefinition Width="0.2*"/>
+                    <ColumnDefinition Width="0.1*"/>
+                    <ColumnDefinition Width="0.1*"/>
+                    
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.003*"/>
+                    <RowDefinition Height="0.07*"/>
+                    <RowDefinition Height="0.07*"/>
+                    <RowDefinition Height="0.07*"/>
+                    <RowDefinition Height="0.07*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="0.5*"/>
+
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" > Folder Path</TextBlock>
+                <TextBox Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Margin="2" Foreground="White" IsEnabled="true" IsReadOnly="True" Height="18" Text="{Binding Path=FolderPath}"/>
+                <Button Grid.Row="1" Content="Open" Grid.Column="4" Margin="2" IsEnabled="true" Height="22" Command="{Binding Path=OpenDialogCommand}"/>
+                <TextBlock Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" > File Name</TextBlock>
+                <ComboBox Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,0,0,0" ItemsSource="{Binding Path=FileNameCollection, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding Path=SelectedFile, Mode=TwoWay}"/>
+                <TextBlock Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0">Total document</TextBlock>                
+                <TextBlock Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" Text="{Binding Path=TotalDocument}"></TextBlock>
+                <TextBlock Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0">Search text</TextBlock>
+                <TextBox Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="2" Foreground="White" Height="18" AcceptsReturn="False" Text="{Binding Path=SearchText,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" >
+                    <TextBox.InputBindings>
+                            <KeyBinding Key="Enter" Command="{Binding SearchTextCommand}" />
+                        </TextBox.InputBindings>
+                </TextBox>
+                <RadioButton Grid.Row="4" Grid.Column="3" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" IsChecked="{Binding RawTextChecked, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">Raw Text</RadioButton>
+                <RadioButton Grid.Row="4" Grid.Column="4" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" IsChecked="{Binding SentencesChecked, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">Sentences</RadioButton>
+                <Button Grid.Row="3" Content="Prev" Grid.Column="3" Margin="2" IsEnabled="true" Height="22" Command="{Binding Path=PreviousDocument}"/>                
+                <Button Grid.Row="3" Content="Next" Grid.Column="4" Margin="2" IsEnabled="true" Height="22" Command="{Binding Path=NextDocument}"/>
+                <grid:CustomDataGrid  Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="6" AutoGenerateColumns="False" BorderThickness="1"
+                      CellStyle="{StaticResource DataGridCell_Centering}" 
+                      LoadingRow="Content_LoadingRow"                      
+                      HeadersVisibility="All" Margin="5" GridLinesVisibility="All"
+                      ItemsSource="{Binding ContentLines, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Extended" SelectionUnit="FullRow"
+                      CanUserAddRows="False" CanUserReorderColumns="False" CanUserSortColumns="False"
+                      SelectedItemsList="{Binding SelectedLines, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                    <DataGrid.Resources>
+                        <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="DarkGray"/>
+                    </DataGrid.Resources>
+                    <DataGrid.RowHeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding RelativeSource={RelativeSource AncestorType={x:Type DataGridRow}},Path=Header}"/>
+                        </DataTemplate>
+                    </DataGrid.RowHeaderTemplate>
+                    <DataGrid.Columns>                        
+                        <DataGridTextColumn Header="Content" Width="5*" Binding="{Binding Value}" IsReadOnly="True">
+                            <DataGridTextColumn.HeaderStyle>
+                                <Style TargetType="DataGridColumnHeader">
+                                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                </Style>
+                            </DataGridTextColumn.HeaderStyle>
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="DataGridCell">                                    
+                                </Style>
+                            </DataGridTextColumn.CellStyle>
+                            <DataGridTextColumn.ElementStyle>
+                                <Style>
+                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap" />                                    
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>
+                    </DataGrid.Columns>
+                </grid:CustomDataGrid>
+                
+                <GroupBox Header="Document Structure Definition" Grid.Column="0" Grid.Row="6"  Grid.ColumnSpan="6" Margin="0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.1*"/>
+                            <ColumnDefinition Width="0.2*"/>
+                            <ColumnDefinition Width="0.2*"/>
+                            <ColumnDefinition Width="0.2*"/>
+                            <ColumnDefinition Width="0.1*"/>
+                            <ColumnDefinition Width="0.1*"/>                            
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0.1*"/>                            
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="0.2*"/>
+                            <RowDefinition Height="0.3*"/>                            
+                        </Grid.RowDefinitions>
+                    
+                    <DataGrid Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Grid.ColumnSpan="6" Name="DocumentItemView" AutoGenerateColumns="False" BorderThickness="1"
+                            CellStyle="{StaticResource DataGridCell_Centering}" 
+                            HeadersVisibility="Column" GridLinesVisibility="None" Margin="5" 
+                            ItemsSource="{Binding CurrentDocument.DocumentStructure.DocumentItems, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Single" SelectionUnit="FullRow"
+                            SelectedItem="{Binding CurrentDocument.DocumentStructure.SelectedDocItem, Mode=TwoWay}"
+                            CanUserAddRows="False" CanUserReorderColumns="False" CanUserSortColumns="False"
+                      >
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Item" Width="*" Binding="{Binding ItemName}" IsReadOnly="True"/>
+                                
+                                <!--<DataGridTextColumn Header="Begin Row" Width="*" Binding="{Binding BeginRow}" IsReadOnly="True">-->
+                                <DataGridTemplateColumn Header="Begin Row" Width="0.5*">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding BeginRow}"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                    <DataGridTemplateColumn.CellEditingTemplate>                                        
+                                        <DataTemplate>
+                                            <TextBox Width="100" x:Name="EditBeginRow" Text="{Binding BeginRow, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellEditingTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Header="End Row" Width="0.5*">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding EndRow}"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                    <DataGridTemplateColumn.CellEditingTemplate>
+                                        <DataTemplate>
+                                            <TextBox Width="100" Text="{Binding EndRow, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellEditingTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Header="Weight" Width="0.5*">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Weight}"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                    <DataGridTemplateColumn.CellEditingTemplate>
+                                        <DataTemplate>
+                                            <TextBox Width="100" Text="{Binding Weight, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellEditingTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn Header="Description" Width="*">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding Description}"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                    <DataGridTemplateColumn.CellEditingTemplate>
+                                        <DataTemplate>
+                                            <TextBox Width="100" TextWrapping="Wrap" Text="{Binding Description, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellEditingTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <TextBlock Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" Grid.ColumnSpan="3" Text="{Binding CurrentDocument.DocumentStructure.ErrorMessage}" Foreground="Red" FontWeight="Bold"/>
+                        
+                        <Button Grid.Row="3" Content="Apply" Grid.Column="5" Grid.ColumnSpan="1" Margin="2" IsEnabled="true" Height="22" Command="{Binding Path=ApplyStructureCommand}"/>
+                        <ComboBox Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="1" Margin="0,0,0,0" SelectedIndex="0">
+                            <ComboBoxItem Name="cbi1">Paper</ComboBoxItem>
+                        </ComboBox>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </GroupBox>
+
+        <GroupBox Header="Candidate Terms and Features" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="1" Grid.RowSpan="3" Margin="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="0.5*"/>                    
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.08*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="0.08*"/>
+                    <RowDefinition Height="0.5*"/>
+                </Grid.RowDefinitions>
+                <TextBox Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="2" Foreground="White" Height="18" AcceptsReturn="False" Text="{Binding Path=SearchTerm,UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}" >
+                    <TextBox.InputBindings>
+                        <KeyBinding Key="Enter" Command="{Binding SearchTermCommand}" />
+                    </TextBox.InputBindings>
+                </TextBox>
+                <StackPanel Grid.Row="0" Grid.Column="3" Orientation="Horizontal">
+                    <Button  Content="Prev" Margin="2" IsEnabled="true" Height="22" Command="{Binding Path=PrevTerm}"/>
+                    <Button Content="Next" Margin="2" IsEnabled="true" Height="22" Command="{Binding Path=NextTerm}"/>
+                </StackPanel>
+                <RadioButton Grid.Row="0" Grid.Column="4" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" IsChecked="{Binding ControlledChecked, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">Controlled</RadioButton>
+                <RadioButton Grid.Row="0" Grid.Column="5" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" IsChecked="{Binding UncontrolledChecked, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">Uncontrolled</RadioButton>
+                <GroupBox Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="6" Grid.RowSpan="3" Margin="2">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>                            
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>                            
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <grid:CustomDataGrid Grid.Row="1" Grid.Column="0" Grid.RowSpan="1" AutoGenerateColumns="false" Margin="0,2,0,0"
+                       CellStyle="{StaticResource DataGridCell_Centering}" BorderThickness="1" CanUserAddRows="False" CanUserDeleteRows="False"
+                       LoadingRow="AssignedKeyphrase_LoadingRow" HeadersVisibility="All" GridLinesVisibility="All"
+                       ItemsSource="{Binding CurrentDocument.AssignedCandidateTerms, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"                       
+                       ScrollViewer.CanContentScroll="True"
+                       ScrollViewer.VerticalScrollBarVisibility="Auto"
+                       ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                       SelectedItemsList="{Binding SelectedKeyphraseItems, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                            <DataGrid.InputBindings>
+                                <KeyBinding Key="Delete" Command="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}, Path=DataContext.DeleteKeyphrasesCommand}"></KeyBinding>
+                            </DataGrid.InputBindings>
+                            <DataGrid.RowHeaderTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding RelativeSource={RelativeSource AncestorType={x:Type DataGridRow}},Path=Header}"/>
+                                </DataTemplate>
+                            </DataGrid.RowHeaderTemplate>
+                            <DataGrid.Columns>
+                                <DataGridTemplateColumn Header="Controlled"  Width="80">
+                                    <DataGridTemplateColumn.HeaderStyle>
+                                        <Style TargetType="DataGridColumnHeader">
+                                            <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                        </Style>
+                                    </DataGridTemplateColumn.HeaderStyle>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <CheckBox VerticalAlignment="Center" HorizontalAlignment="Center" IsEnabled="False" IsChecked="{Binding ControlledTerm, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Command="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}, Path=DataContext.CheckEventCommand}"/>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTextColumn Header="Terms" Width="*" Binding="{Binding Terms}" IsReadOnly="True">
+                                    <DataGridTextColumn.HeaderStyle>
+                                        <Style TargetType="DataGridColumnHeader">
+                                            <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                        </Style>
+                                    </DataGridTextColumn.HeaderStyle>
+                                    <DataGridTextColumn.CellStyle>
+                                        <Style TargetType="DataGridCell"/>
+                                    </DataGridTextColumn.CellStyle>
+                                    <DataGridTextColumn.ElementStyle>
+                                        <Style>
+                                            <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+                                        </Style>
+                                    </DataGridTextColumn.ElementStyle>
+                                </DataGridTextColumn>
+                                <DataGridTextColumn Header="Stemmed terms" Width="*" Binding="{Binding StemmedTerm}" IsReadOnly="True">
+                                    <DataGridTextColumn.HeaderStyle>
+                                        <Style TargetType="DataGridColumnHeader">
+                                            <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                        </Style>
+                                    </DataGridTextColumn.HeaderStyle>
+                                </DataGridTextColumn>
+                            </DataGrid.Columns>
+                        </grid:CustomDataGrid>
+                    </Grid>
+                </GroupBox>
+                <TextBlock Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,0,0,0" FontWeight="Bold" TextDecorations="Underline">Assigned Keyphrase:</TextBlock>
+                <Button Grid.Row="2" Grid.Column="5" Content="Update Ontology" Width="110" Height="25" Margin="1"
+                            Command="{Binding Path=UpdateOntologyCommand}"/>
+                <TextBlock Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5,63,0,67" Text="{Binding Path=TotalAssignedKeyphrase}"></TextBlock>
+                <grid:CustomDataGrid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6" Grid.RowSpan="1" AutoGenerateColumns="false" CanUserAddRows="False" Margin="0,2,0,0"
+                       CellStyle="{StaticResource DataGridCell_Centering}" BorderThickness="1"
+                       LoadingRow="CandidateTermGrid_LoadingRow"
+                       IsSynchronizedWithCurrentItem="True"
+                       HeadersVisibility="All" GridLinesVisibility="All"
+                       ItemsSource="{Binding CandidateTerms, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"                       
+                       ScrollViewer.CanContentScroll="True"
+                       ScrollViewer.VerticalScrollBarVisibility="Auto"
+                       ScrollViewer.HorizontalScrollBarVisibility="Auto"                          
+                       FrozenColumnCount="3"
+                       SelectionMode="Extended"
+                       SelectedItemsList="{Binding SelectedTermItems, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                    <DataGrid.Resources>
+                        <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="DarkGray"/>
+                    </DataGrid.Resources>
+                    <DataGrid.InputBindings>
+                        <KeyBinding Key="Delete" Command="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}, Path=DataContext.DeleteTermsCommand}"></KeyBinding>
+                    </DataGrid.InputBindings>
+                    <DataGrid.RowHeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding RelativeSource={RelativeSource AncestorType={x:Type DataGridRow}},Path=Header}"/>
+                        </DataTemplate>
+                    </DataGrid.RowHeaderTemplate>
+                    <DataGrid.Columns>                                                
+                        <DataGridTemplateColumn>                            
+                            <DataGridTemplateColumn.HeaderTemplate>
+                                <DataTemplate>
+                                    <CheckBox Name="Header" IsChecked="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}, Path=DataContext.CheckAll}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.HeaderTemplate>
+
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <CheckBox VerticalAlignment="Center" HorizontalAlignment="Left" IsChecked="{Binding IsKeyphrase, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Command="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}, Path=DataContext.CheckEventCommand}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="Terms" Width="120" Binding="{Binding Terms}" IsReadOnly="True">
+                            <DataGridTextColumn.HeaderStyle>
+                                <Style TargetType="DataGridColumnHeader">
+                                    <Setter Property="HorizontalContentAlignment"
+                 Value="Center" />
+                                </Style>
+                            </DataGridTextColumn.HeaderStyle>
+                            <DataGridTextColumn.CellStyle>
+                                <Style TargetType="DataGridCell"/>                                
+                            </DataGridTextColumn.CellStyle>
+                            <DataGridTextColumn.ElementStyle>
+                                <Style>
+                                    <Setter Property="TextBlock.TextWrapping" Value="Wrap" />
+                                </Style>
+                            </DataGridTextColumn.ElementStyle>
+                        </DataGridTextColumn>                        
+                        <DataGridTextColumn Header="Stemmed terms" Width="100" Binding="{Binding StemmedTerm}" IsReadOnly="True">
+                        <DataGridTextColumn.HeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="HorizontalContentAlignment"
+                 Value="Center" />
+                            </Style>
+                        </DataGridTextColumn.HeaderStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="TF" Width="100" Binding="{Binding Tf}" IsReadOnly="True">
+                            <DataGridTextColumn.HeaderStyle>
+                                <Style TargetType="DataGridColumnHeader">
+                                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                </Style>
+                            </DataGridTextColumn.HeaderStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="IDF" Width="100" Binding="{Binding Idf}" IsReadOnly="True">
+                            <DataGridTextColumn.HeaderStyle>
+                                <Style TargetType="DataGridColumnHeader">
+                                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                </Style>
+                            </DataGridTextColumn.HeaderStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="1st Occurence Pos" Width="150" Binding="{Binding FirstOccurencePosition}" IsReadOnly="True">
+                            <DataGridTextColumn.HeaderStyle>
+                                <Style TargetType="DataGridColumnHeader">
+                                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                </Style>
+                            </DataGridTextColumn.HeaderStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="Occurence Pos Weight" Width="150" Binding="{Binding OccurencePositionWeight}" IsReadOnly="True">
+                            <DataGridTextColumn.HeaderStyle>
+                                <Style TargetType="DataGridColumnHeader">
+                                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                </Style>
+                            </DataGridTextColumn.HeaderStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="Lenght" Width="50" Binding="{Binding LenghtWord}" IsReadOnly="True">
+                            <DataGridTextColumn.HeaderStyle>
+                                <Style TargetType="DataGridColumnHeader">
+                                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                                </Style>
+                            </DataGridTextColumn.HeaderStyle>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="Node Degree" Width="100" Binding="{Binding NodeDegree}" IsReadOnly="True">
+                            <DataGridTextColumn.HeaderStyle>
+                                <Style TargetType="DataGridColumnHeader">
+                                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                </Style>
+                            </DataGridTextColumn.HeaderStyle>
+                        </DataGridTextColumn>
+                    </DataGrid.Columns>
+                </grid:CustomDataGrid>
+            </Grid>
+            
+        </GroupBox>
+        <GroupBox Header="Functions" Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="2" Margin="2,2,2,5">
+            <DockPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button Content="Cadidate Terms" Width="100" Height="25" Margin="1"
+                            Command="{Binding Path=ExtractCandidateCommand}"/>
+                    <Button Content="Keyphrase" Width="80" Height="25" Margin="1"
+                            Command="{Binding Path=ExtractKeyphraseCommand}"/>
+                    <Button Content="Save" Width="80" Height="25" Margin="1"
+                            Command="{Binding Path=SaveCommand}"/>
+                    <Button Content="Trainning Model" Width="100" Height="25" Margin="1" 
+                            Command="{Binding Path=TrainingCommand}"/>
+                    <Button Content="Reset" Width="80" Height="25" Margin="1" 
+                            Command="{Binding Path=ResetCommand}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="Close" Width="100" Height="25" Margin="2" Command="{Binding Path=CloseCommand}"/>
+                </StackPanel>
+            </DockPanel>
+        </GroupBox>
+    </Grid>
+</Window>

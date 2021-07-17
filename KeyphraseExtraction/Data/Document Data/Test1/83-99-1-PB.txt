@@ -1,0 +1,12 @@
+owl ontology
+web ontology language
+description logic
+e-connection
+semantic web
+description system
+owl-dl
+owl-api
+swoop
+web ontology
+Integration and Combination of Ontologies
+Combination of Knowledge Representation Formalism

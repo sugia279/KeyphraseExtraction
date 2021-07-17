@@ -1,0 +1,45 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>A GRAPHICAL HUMOR ONTOLOGY FOR CONTEMPORARY CULTURAL HERITAGE ACCESS </Title>
+    <FileName>Garcia_ECIS_2005.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="7" EndRow="17" Weight="0.7" />
+    <section Name="Keywords" BeginRow="18" EndRow="19" Weight="1" />
+    <section Name="Introduction" BeginRow="20" EndRow="65" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="377" EndRow="397" Weight="0.7" />
+    <section Name="References" BeginRow="400" EndRow="427" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>contemporary cultural heritage</keyphrase>
+    <keyphrase>graphical humor</keyphrase>
+    <keyphrase>graphical humor artefacts</keyphrase>
+  </Keyphrases>
+</document>

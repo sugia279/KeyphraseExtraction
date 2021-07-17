@@ -1,0 +1,54 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Combining OWL Ontologies Using E-Connections </Title>
+    <FileName>83-99-1-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="16" EndRow="32" Weight="0.7" />
+    <section Name="Keywords" BeginRow="33" EndRow="35" Weight="1" />
+    <section Name="Introduction" BeginRow="39" EndRow="131" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="2195" EndRow="2236" Weight="0.7" />
+    <section Name="References" BeginRow="2237" EndRow="2350" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>web ontology language</keyphrase>
+    <keyphrase>swoop</keyphrase>
+    <keyphrase>description logics</keyphrase>
+    <keyphrase>web ontologies</keyphrase>
+    <keyphrase>owl ontology</keyphrase>
+    <keyphrase>owl ontologies</keyphrase>
+    <keyphrase>owl-dl</keyphrase>
+    <keyphrase>e-connection</keyphrase>
+    <keyphrase>e-connected</keyphrase>
+    <keyphrase>owl-api</keyphrase>
+    <keyphrase>knowledge representation formalisms</keyphrase>
+    <keyphrase>knowledge engineering applications</keyphrase>
+    <keyphrase>combination of knowledge</keyphrase>
+    <keyphrase>combination of ontologies</keyphrase>
+  </Keyphrases>
+</document>

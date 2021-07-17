@@ -1,0 +1,48 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Ontology-Based Domain-Driven Design </Title>
+    <FileName>hruby.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="3" EndRow="3" Weight="0.9" />
+    <section Name="Abstract" BeginRow="13" EndRow="31" Weight="0.7" />
+    <section Name="Keywords" BeginRow="33" EndRow="34" Weight="1" />
+    <section Name="Introduction" BeginRow="38" EndRow="97" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="-1" EndRow="-1" Weight="0.7" />
+    <section Name="References" BeginRow="773" EndRow="803" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>domain ontologies</keyphrase>
+    <keyphrase>domain ontology</keyphrase>
+    <keyphrase>domain specific language</keyphrase>
+    <keyphrase>rea</keyphrase>
+    <keyphrase>ontology-based domain-driven</keyphrase>
+    <keyphrase>aspect-oriented programming</keyphrase>
+    <keyphrase>business applications</keyphrase>
+    <keyphrase>business domain interactive systems domain</keyphrase>
+    <keyphrase>conceptualized domain knowledge</keyphrase>
+  </Keyphrases>
+</document>

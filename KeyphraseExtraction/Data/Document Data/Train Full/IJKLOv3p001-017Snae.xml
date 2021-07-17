@@ -1,0 +1,60 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Ontology-Driven E-Learning System  Based on Roles and Activities for  Thai Learning Environment </Title>
+    <FileName>IJKLOv3p001-017Snae.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="3" EndRow="5" Weight="0.9" />
+    <section Name="Abstract" BeginRow="9" EndRow="17" Weight="0.7" />
+    <section Name="Keywords" BeginRow="18" EndRow="18" Weight="1" />
+    <section Name="Introduction" BeginRow="19" EndRow="92" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="473" EndRow="487" Weight="0.7" />
+    <section Name="References" BeginRow="489" EndRow="581" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>metadata</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>domain ontologies</keyphrase>
+    <keyphrase>information retrieval</keyphrase>
+    <keyphrase>information systems</keyphrase>
+    <keyphrase>machine learning</keyphrase>
+    <keyphrase>natural language processing</keyphrase>
+    <keyphrase>rdf</keyphrase>
+    <keyphrase>resource description framework</keyphrase>
+    <keyphrase>semantic networks</keyphrase>
+    <keyphrase>web ontology language</keyphrase>
+    <keyphrase>thai learning environment</keyphrase>
+    <keyphrase>o-dest</keyphrase>
+    <keyphrase>thailand</keyphrase>
+    <keyphrase>e-learning system</keyphrase>
+    <keyphrase>knowledge domain</keyphrase>
+    <keyphrase>e-learning management system</keyphrase>
+    <keyphrase>formalize conceptual models</keyphrase>
+    <keyphrase>general knowledge management</keyphrase>
+  </Keyphrases>
+</document>

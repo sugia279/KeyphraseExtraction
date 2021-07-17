@@ -1,0 +1,53 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Start making sense: The Chatty Web approach for global semantic agreements </Title>
+    <FileName>29-45-1-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="13" EndRow="20" Weight="0.7" />
+    <section Name="Keywords" BeginRow="21" EndRow="21" Weight="1" />
+    <section Name="Introduction" BeginRow="22" EndRow="167" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="1379" EndRow="1394" Weight="0.7" />
+    <section Name="References" BeginRow="1395" EndRow="1472" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>semantic integration</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>semantic interoperability</keyphrase>
+    <keyphrase>data model</keyphrase>
+    <keyphrase>data models</keyphrase>
+    <keyphrase>semantic similarity</keyphrase>
+    <keyphrase>self-organization</keyphrase>
+    <keyphrase>self-organizing</keyphrase>
+    <keyphrase>semantic agreements</keyphrase>
+    <keyphrase>syntactic similarity</keyphrase>
+    <keyphrase>global agreement</keyphrase>
+    <keyphrase>gossiping algorithm</keyphrase>
+    <keyphrase>cycle analysis</keyphrase>
+    <keyphrase>global semantic agreements</keyphrase>
+  </Keyphrases>
+</document>

@@ -1,0 +1,53 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>FaBiO and CiTO: ontologies for describing bibliographic resources and citations </Title>
+    <FileName>324-518-1-SM.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="12" EndRow="22" Weight="0.7" />
+    <section Name="Keywords" BeginRow="11" EndRow="11" Weight="1" />
+    <section Name="Introduction" BeginRow="23" EndRow="104" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="1156" EndRow="1204" Weight="0.7" />
+    <section Name="References" BeginRow="1205" EndRow="1378" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>semantic publishing</keyphrase>
+    <keyphrase>semantic web</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>skos</keyphrase>
+    <keyphrase>owl</keyphrase>
+    <keyphrase>owl ontologies</keyphrase>
+    <keyphrase>publication characterization</keyphrase>
+    <keyphrase>scholarly reference</keyphrase>
+    <keyphrase>fabio</keyphrase>
+    <keyphrase>cito</keyphrase>
+    <keyphrase>bibliographic citations</keyphrase>
+    <keyphrase>citation typing ontology</keyphrase>
+    <keyphrase>frbr-aligned bibliographic ontology</keyphrase>
+  </Keyphrases>
+</document>

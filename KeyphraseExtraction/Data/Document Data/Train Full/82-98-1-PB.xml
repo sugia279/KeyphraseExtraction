@@ -1,0 +1,54 @@
+<document>
+  <metadata xmlns="http://example.org/myapp/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://example.org/myapp/ http://example.org/myapp/schema.xsd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+    <Title>Towards Automatic Merging of Domain Ontologies: The HCONE-merge approach  </Title>
+    <FileName>82-98-1-PB.pdf</FileName>
+    <Creator>
+    </Creator>
+    <Publisher>
+    </Publisher>
+    <Contributor>
+    </Contributor>
+    <PublishedDate>
+    </PublishedDate>
+    <Language>
+    </Language>
+    <Format>pdf</Format>
+    <Relation>
+    </Relation>
+    <Coverage>
+    </Coverage>
+    <Rights />
+    <Identifier>
+    </Identifier>
+    <Source>
+    </Source>
+    <Description>
+    </Description>
+  </metadata>
+  <structure>
+    <section Name="Title" BeginRow="1" EndRow="2" Weight="0.9" />
+    <section Name="Abstract" BeginRow="13" EndRow="26" Weight="0.7" />
+    <section Name="Keywords" BeginRow="27" EndRow="28" Weight="1" />
+    <section Name="Introduction" BeginRow="29" EndRow="73" Weight="0.6" />
+    <section Name="Conclusions" BeginRow="1660" EndRow="1696" Weight="0.7" />
+    <section Name="References" BeginRow="1705" EndRow="2110" Weight="0.7" />
+    <section Name="Unspecified" BeginRow="-1" EndRow="-1" Weight="0.5" />
+  </structure>
+  <Keyphrases>
+    <keyphrase>description logics</keyphrase>
+    <keyphrase>ontology mapping</keyphrase>
+    <keyphrase>wordnet</keyphrase>
+    <keyphrase>ontology merging</keyphrase>
+    <keyphrase>ontologies</keyphrase>
+    <keyphrase>ontology</keyphrase>
+    <keyphrase>latent semantic indexing</keyphrase>
+    <keyphrase>semi-automatic</keyphrase>
+    <keyphrase>hcone-merge</keyphrase>
+    <keyphrase>ontology coordination</keyphrase>
+    <keyphrase>merging method</keyphrase>
+    <keyphrase>merging methods</keyphrase>
+    <keyphrase>s-morphism</keyphrase>
+    <keyphrase>gold-standard</keyphrase>
+    <keyphrase>gold-standard ontology</keyphrase>
+  </Keyphrases>
+</document>
